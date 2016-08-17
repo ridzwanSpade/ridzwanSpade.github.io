@@ -1,1 +1,195 @@
-hello world
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test form</title>
+			<style type="text/css">
+
+				input[type="text"] {
+				    padding: 10px;
+				    margin-left: 10px;
+				    margin-top: 10px;
+				    font-size: 18px;
+				    width: 560px;
+    				border-radius: 5px;
+					}
+
+				form#testForm {
+				    padding: 40px;      
+		    	    margin: 40px auto;
+		    		background-color: white;
+		    	    width: 600px;
+					}
+
+				html {
+		   			background: silver;
+					}
+
+				a {
+				    text-decoration: none;
+				}
+				
+				h1 {
+				    font-size: 50px;
+				    font-family: sans-serif;
+				    padding-left: 10px;
+				    margin: 5px 0px;
+				}
+
+				h2 {
+				    margin-left: 10px;
+				    margin-top: 0px;
+				    font-size: 20px;
+				    font-family: sans-serif;
+				    font-weight: 100;
+				}
+
+				h3 {
+				    font-size: 25px;
+				    font-family: sans-serif;
+				    margin-top: 15px;
+				    margin-bottom: 10px;
+				    margin-left: 10px;
+				}
+
+				select {
+					font-size: 15px;
+				    padding-top: 10px;
+				    padding-bottom: 10px;
+				    padding-left: 5px;
+				    padding-right: 0px;
+				}
+
+				div#month {
+				    margin-left: 10px;
+				    font-size: 12px;
+				    font-family: sans-serif;
+				    width: 270px;
+				    float: left;
+				}
+
+				div#gender {
+					margin-left: 10px;
+				    padding-top: 60px;
+				    font-family: sans-serif;
+				    font-size: 15px;
+				}
+
+				div#terms {
+				    padding-top: 20px;
+				    margin-left: 10px;
+				    font-family: sans-serif;
+				    font-size: 12px;
+				    width: 350px;
+				}
+
+				div#submit {
+				    padding-top: 20px;
+				    margin-left: 10px;
+				}
+
+				div#question {
+				    width: 200px;
+				    float: left;
+				    font-size: 15px;
+				    padding-top: 5px;
+				    font-family: sans-serif;
+				}
+
+				input[type="submit"] {
+				    width: 210px;
+				    padding: 10px;
+				    font-size: 20px;
+				    border-radius: 5px;
+				    border: 1px solid;
+				    background-color: #228B22;
+				    color: white;
+				    font-weight: bold;
+				}
+
+				input.input_name {
+				    width: 260px;
+				    border-radius: 5px;
+				}
+
+
+
+			</style>
+	</head>
+	<body>
+	<section>
+	<form id="testForm">
+	<h1>Sign up</h1>
+	<h2>it's free and always will be.</h2>
+
+	<div class="name">
+	<label></label>
+	<input type="text" name="f-name" placeholder="First name" class="input_name">
+	<input type="text" name="l-name" placeholder="Last name" class="input_name">
+	</div>
+
+	<div id="email">
+	<label></label>
+	<input type="text" name="email" placeholder="Email or mobile">
+	</div>
+
+	<div id="r-email">
+	<label></label>
+	<input type="text" name="r-email" placeholder="Re-enter email or mobile">
+	</div>
+
+	<div id="password">
+	<label></label>
+	<input type="text" name="password" placeholder="Password">
+	</div>
+
+	<h3>Birthday</h3>
+
+	<div id="month">
+	 	<select name="month">
+			<option> Month </option>
+			<option> January </option>
+			<option> February </option>
+			<option> March </option>
+			<option> April </option>
+			<option> May </option>
+		</select>
+		<select name="day">
+			<option> Day </option>
+			<option> Monday </option>
+			<option> Tuesday </option>
+			<option> Wednesday </option>
+			<option> Thursday </option>
+		</select>
+		<select name="year">
+			<option> Year </option>
+			<option> 1990 </option>
+			<option> 1991 </option>
+			<option> 1992 </option>
+			<option> 1993 </option>
+		</select>
+	 	
+	</div>
+
+	<div id="question">
+		<a href="#">Why I need to provide my birthday ?</a>
+	</div>
+
+	<div id="gender">
+		<label></label>
+		<input type="radio" name="gender" value="female"> Female
+		&nbsp &nbsp &nbsp
+		<input type="radio" name="gender" value="male"> Male
+	</div>
+
+	<div id="terms">
+		By clicking <a href="#">Sign Up,</a> you agree to our <a href="#"> Terms</a> and that you have read our <a href="#">Data Policy,</a> including our <a href="#">Cookie Policy.</a>
+	</div>
+
+	<div id="submit">
+		<input type="submit" name="signUp" value="Sign up" >
+	</div>
+
+	</form>
+	</section>
+	</body>
+	</html>
