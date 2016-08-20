@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style type="text/css">
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        html {
+            background: gray;
+        }
+        
+        div#head2 {
+            padding: 40px;
+            background: violet;
+            width: 50px;
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+        
+        div#head {
+            background: azure;
+            padding: 20px 453px;
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 300px;
+        }
+        
+        div#box1 {
+            display: inline-block;
+        }
+        
+        div#inBox1 {
+            padding-bottom: 460px;
+            margin-left: 20px;
+            padding-right: 300px;
+            background: antiquewhite;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        
+        div#inBox2 {
+            display: inline-block;
+        }
+        
+        div#inBox2lagi {
+            background: yellowgreen;
+            padding-bottom: 100px;
+        }
+        
+        div#inBox2lagi2 {
+            display: inline-block;
+            width: 900px;
+        }
+        
+        div#inBox2lagi3 {
+            padding: 100px;
+            background: yellow;
+        }
+        
+        div#ininBox2 {
+            background: #ff7fde;
+            margin-top: 20px;
+            padding-bottom: 340px;
+            width: 297px;
+            display: inline-block;
+        }
+        
+        div#box2 {
+            padding: 50px;
+            background: blue;
+            width: 1115px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="content">
+            <div id="head2"></div>
+            <div id="head"> </div>
+            <div id="box1">
+                <div id="inBox1"> </div>
+                <div id="inBox2">
+                    <div id="inBox2lagi"></div>
+                    <div id="inBox2lagi2">
+                        <div id="ininBox2"> </div>
+                        <div id="ininBox2"> </div>
+                        <div id="ininBox2"> </div>
+                    </div>
+                    <div id="inBox2lagi3"></div>
+
+                </div>
+
+            </div>
+            <div id="box2"></div>
+
+        </div>
+    </section>
+</body>
+
+</html>
