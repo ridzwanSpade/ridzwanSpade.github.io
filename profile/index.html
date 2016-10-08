@@ -20,19 +20,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
         <!--<script src="/Users/mohdzaki04/Desktop/wan/learn&earn/Program Files/resproject/js/jquery.js"></script>-->
-        <script>
-        //Choose if you want the window width to display - 1 = yes, 0 = no
-        var showWidth = 1;
-        
-        if(showWidth == 1){
-            $(document).ready(function (){
-                $(window).resize(function(){
-                    var width = $(window).width();
-                    document.getElementById("output_width").innerHTML='Window Width:'+width.toString();
-                });
-            });
-        }
-    </script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 </head>
 
 <body>
@@ -50,8 +39,7 @@
     </div>
     <div id="body1">
         <div class="" >
-        	<div id="profileImage" class="img-circle">
-        		<img src="http://codecues.com/wp-content/uploads/2016/06/men2.png" class="img-responsive"  alt="Responsive image" data-animate-scroll='{  
+        	<div id="profileImage" class="img-circle" data-animate-scroll='{  
       "scaleX": "1.5",  
       "scaleY": "1.5",  
       "x": "-10",  
@@ -60,7 +48,8 @@
       "alpha": "1",  
       "easingType": "Cubic.easeOut",  
       "duration": "1"  
-      }'>
+      }' >
+        		<img src="http://codecues.com/wp-content/uploads/2016/06/men2.png" class="img-responsive"  alt="Responsive image" >
         	</div>
             <h1>Mohamad Ridzwan</h1>
             <h2 style="
