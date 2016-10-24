@@ -224,7 +224,7 @@
 <div class="nav-title-info">
 		<p>My Portfolio</p>
 	</div>
-<div class="customNavigation">
+<div id="customNavigation">
 	<div class="btn-nav">	
   <a class="btn prev">Previous</a>
   <a class="btn next">Next</a>
@@ -458,6 +458,7 @@
           itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
       });
      
+	    $("#owl-customNavigation").owlCarousel({
       // Custom Navigation Events
       $(".next").click(function(){
         owl.trigger('owl.next');
